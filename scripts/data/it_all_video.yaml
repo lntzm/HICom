@@ -1,0 +1,31 @@
+datasets:
+  - json_path: playground/data/Video_Mix_Instruct/m4_instruct.jsonl
+    data_root: Video_Mix_Instruct/m4_instruct_videos
+    sampling_strategy: all
+  - json_path: playground/data/Video_Mix_Instruct/videochatgpt.jsonl
+    data_root: Video_Mix_Instruct/Video-ChatGPT-0525
+    sampling_strategy: all
+  - json_path: playground/data/Video_Mix_Instruct/clever.jsonl
+    data_root: Video_Mix_Instruct/CLEVER
+    sampling_strategy: all
+  - json_path: playground/data/Video_Mix_Instruct/charades.jsonl
+    data_root: Video_Mix_Instruct/Charades
+    sampling_strategy: all
+  - json_path: playground/data/Video_Mix_Instruct/ntu_rgb_d.jsonl
+    data_root: Video_Mix_Instruct/NTU-RGB-D
+    sampling_strategy: all
+  - json_path: playground/data/Video_Mix_Instruct/ssv2_cls.jsonl
+    data_root: Video_Mix_Instruct/ssv2-cls
+    sampling_strategy: all
+  - json_path: playground/data/Video_Mix_Instruct/tvqa.jsonl
+    data_root: Video_Mix_Instruct/TVQA
+    sampling_strategy: all
+  - json_path: playground/data/Video_Mix_Instruct/llava_video_178k_wo_hound.jsonl
+    data_root: Video_Mix_Instruct/LLaVA-Video-178K
+    sampling_strategy: all
+  - json_path: playground/data/Video_Mix_Instruct/llava_video_178k_hound.jsonl
+    data_root: Video_Mix_Instruct/LLaVA-Hound
+    sampling_strategy: all
+  - json_path: playground/data/LLaVA-Instruct-150K/llava_v1_5_pure_qa.json
+    data_root: LLaVA-Instruct-150K/images
+    sampling_strategy: all

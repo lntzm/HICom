@@ -1,0 +1,4 @@
+datasets:
+  - json_path: playground/data/LLaVA-Instruct-150K/llava_v1_5_mix665k.json
+    data_root: LLaVA-Instruct-150K/images
+    sampling_strategy: all

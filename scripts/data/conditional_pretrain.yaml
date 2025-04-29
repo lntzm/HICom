@@ -1,0 +1,4 @@
+datasets:
+  - json_path: playground/data/Ins-VL/20241020/248328_qa_llavaformat.json
+    data_root: Ins-VL/split_videos
+    sampling_strategy: all

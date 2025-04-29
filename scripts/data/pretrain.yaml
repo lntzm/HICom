@@ -1,0 +1,4 @@
+datasets:
+  - json_path: playground/data/LLaVA-Pretrain/blip_laion_cc_sbu_558k.json
+    data_root: LLaVA-Pretrain/images
+    sampling_strategy: all
