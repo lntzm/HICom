@@ -6,7 +6,7 @@ The official implementation of [Hybrid-Level Instruction Injection for Video Tok
 
 <h5 align="center">
 
-[![arXiv](https://img.shields.io/badge/Arxiv-2503.16036-AD1C18.svg?logo=arXiv)](https://arxiv.org/abs/2503.16036)
+[![arXiv](https://img.shields.io/badge/Arxiv-2503.16036-AD1C18.svg)](https://arxiv.org/abs/2503.16036)
 [![hf_checkpoint](https://img.shields.io/badge/🤗-Checkpoints-9C276A.svg)](https://huggingface.co/lntzm/HICom_7B_qwen25_directg_local43_global32)
 [![License](https://img.shields.io/badge/License-Apache%202.0-yellow)](https://github.com/lntzm/HICom/blob/main/LICENSE) 
 </h5>
