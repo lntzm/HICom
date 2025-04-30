@@ -7,7 +7,7 @@ The official implementation of [Hybrid-Level Instruction Injection for Video Tok
 <h5 align="center">
 
 [![arXiv](https://img.shields.io/badge/Arxiv-2503.16036-AD1C18.svg?logo=arXiv)](https://arxiv.org/abs/2503.16036)
-[![hf_checkpoint](https://img.shields.io/badge/🤗-Checkpoints-9C276A.svg)](https://huggingface.co/lntzm/HICom)
+[![hf_checkpoint](https://img.shields.io/badge/🤗-Checkpoints-9C276A.svg)](https://huggingface.co/lntzm/HICom_7B_qwen25_directg_local43_global32)
 [![License](https://img.shields.io/badge/License-Apache%202.0-yellow)](https://github.com/lntzm/HICom/blob/main/LICENSE) 
 </h5>
 
@@ -60,10 +60,13 @@ playground
 ```
 
 ## 💰 Train
-train scripts are under `scripts/qwen2.5_7B` folder.
+Train scripts are under `scripts/qwen2.5_7B` folder.
 ```bash
 bash scripts/qwen2.5_7B/release/directg_local43_global32.sh
 ```
+
+## 🤗 Checkpoints
+We release our trained checkpoint in [Huggingface](https://huggingface.co/lntzm/HICom_7B_qwen25_directg_local43_global32), which performs a little higher than reported, as we re-organize the code, fix some bugs, upgrade the environment, and re-train the model with unfreezing the text encoder.
 
 ## 🤖 Evaluation
 video evaluation scripts are under `scripts/eval/video` folder.
